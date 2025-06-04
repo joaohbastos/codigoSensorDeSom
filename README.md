@@ -31,12 +31,14 @@ Protoboard
 🔌 Esquema de ligação
 Componente	Pino Arduino
 Sensor de Som (OUT)	A0 (ou conforme no código)
-LED 1	8
-LED 2	9
-LED 3	10
-LED 4 11
-LED 5 12
-LED 6 13
+LED 1 6
+LED 2 7
+LED 3	8
+LED 4	9
+LED 5	10
+LED 6 11
+LED 7 12
+LED 8 13
 Botão (um terminal)	2
 Botão (outro terminal)	GND + resistor pull-down
 
