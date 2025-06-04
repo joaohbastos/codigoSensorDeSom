@@ -1,4 +1,4 @@
-🎛️ Sensor de Som com LEDs e Botão de Reset — Arduino
+# 🎛️ Sensor de Som com LEDs e Botão de Reset — Arduino
 Este projeto utiliza um sensor de som para acionar LEDs conectados a um Arduino.
 Além disso, conta com um botão que permite resetar ou apagar os LEDs manualmente, mesmo que o som ainda esteja sendo detectado.
 
