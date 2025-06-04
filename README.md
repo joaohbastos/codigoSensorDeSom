@@ -53,7 +53,7 @@ Obs: Perna maior do led = Positivo, perna menor ligado ao GND
 | PERNA POSITIVA   | PORTA 5     |
 | PERNA OPOSTA    | GND     |
 
-Obs: O botão não tem obrigatóriamente o lado positivo, você quem decide isso. Não importa a perna que você conecte para a porta 5, mas é necessário que você conecte o GND a perna oposta da que você conectou a porta 5; Não é necessário uso de resistor visto que usei o pulllut no código.
+Obs: O botão não tem obrigatóriamente o lado positivo, você quem decide isso. Não importa a perna que você conecte para a porta 5, mas é necessário que você conecte o GND a perna oposta da que você conectou a porta 5; Não é necessário uso de resistor visto que usei o pulllup no código.
 
 GND e VCC do sensor e LEDs devem ser ligados adequadamente ao Arduino.
 
