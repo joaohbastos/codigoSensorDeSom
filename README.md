@@ -29,22 +29,31 @@ Jumpers
 Protoboard
 
 # 🔌 Esquema de ligação
-Componente	Pino Arduino
 | Sensor de Som | Arduino |
 |---------------|---------|
 | OUT           | A0     |
 | VCC           | VCC     |
-| GND          | GND       |
+| GND           | GND       |
 
-LED 2 7
-LED 3	8
-LED 4	9
-LED 5	10
-LED 6 11
-LED 7 12
-LED 8 13
-Botão (um terminal)	2
-Botão (outro terminal)	GND + resistor pull-down
+| LEDS  | Arduino |
+|--------|---------|
+| LED 1   | PORTA 6     |
+| LED 2    | PORTA 7     |
+| LED 3    | PORTA 8       |
+| LED 4  | PORTA 9       |
+| LED 5   | PORTA 10      |
+| LED 6   | PORTA 11     |
+| LED 7        | PORTA 12 |
+|  LED 8       | PORTA 13 |
+
+Obs: Perna maior do led = Positivo, perna menor ligado ao GND
+
+| BOTÃO  | Arduino |
+|--------|---------|
+| PERNA POSITIVA   | PORTA 5     |
+| PERNA OPOSTA    | GND     |
+
+Obs: O botão não tem obrigatóriamente o lado positivo, você quem decide isso. Não importa a perna que você conecte para a porta 5, mas é necessário que você conecte o GND a perna oposta da que você conectou a porta 5; Não é necessário uso de resistor visto que usei o pulllut no código.
 
 GND e VCC do sensor e LEDs devem ser ligados adequadamente ao Arduino.
 
