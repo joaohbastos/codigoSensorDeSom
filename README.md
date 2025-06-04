@@ -2,7 +2,7 @@
 Este projeto utiliza um sensor de som para acionar LEDs conectados a um Arduino.
 Além disso, conta com um botão que permite resetar ou apagar os LEDs manualmente, mesmo que o som ainda esteja sendo detectado.
 
-# 🚀 Funcionalidades
+## 🚀 Funcionalidades
 Detecta sons ambientes.
 
 Acende LEDs quando o som ultrapassa um nível mínimo.
@@ -11,7 +11,7 @@ Botão físico para resetar (apagar) os LEDs.
 
 Código simples e didático.
 
-# 🛠️ Componentes necessários
+## 🛠️ Componentes necessários
 1x Arduino (UNO, Mega, etc.)
 
 1x Sensor de Som (microfone com saída digital ou analógica)
@@ -28,7 +28,7 @@ Jumpers
 
 Protoboard
 
-# 🔌 Esquema de ligação
+##🔌 Esquema de ligação
 | Sensor de Som | Arduino |
 |---------------|---------|
 | OUT           | A0     |
@@ -57,7 +57,7 @@ Obs: O botão não tem obrigatóriamente o lado positivo, você quem decide isso
 
 GND e VCC do sensor e LEDs devem ser ligados adequadamente ao Arduino.
 
-# 💻 Código
+## 💻 Código
 O código está no arquivo: sensorSomLeds.ino.
 Principais pontos:
 
@@ -69,7 +69,7 @@ Caso o botão seja pressionado, os LEDs são apagados.
 
 Se o som continuar alto após o reset, os LEDs podem acender novamente.
 
-# ⚙️ Como usar
+## ⚙️ Como usar
 Monte o circuito conforme o esquema.
 
 Abra o Arduino IDE.
@@ -84,14 +84,14 @@ Produza sons e observe os LEDs acendendo.
 
 Pressione o botão para apagar os LEDs a qualquer momento.
 
-# 📝 Configurações importantes
+## 📝 Configurações importantes
 No código, você pode ajustar a sensibilidade:
 int nivelSomMinimo = 500; // Ajuste conforme necessário
 Quanto menor o valor, mais sensível será a detecção de som.
 Obs: Essa configuração só funciona se usar modo analógico no sensor.
 
-# 📄 Licença
+## 📄 Licença
 Este projeto é de livre uso para fins educacionais e pessoais.
 
-# ℹ️ Observações
+## ℹ️ Observações
 Ajuste o nivelSomMinimo conforme o ambiente: mais barulhento → valor maior
